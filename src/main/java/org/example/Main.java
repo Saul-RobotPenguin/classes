@@ -2,6 +2,7 @@ package org.example;
 
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -30,19 +31,12 @@ public class Main {
 
 
 
-        Checking franciscoAccount = new Checking(1, "Francisco");
-        franciscoAccount.getAmount();
-        franciscoAccount.addAmount(1000);
-        franciscoAccount.getAmount();
-
-
-
-    }
 
 
 
 
-    static void sayHello (){
-        System.out.println("Hello");
+
+
+
     }
 }
